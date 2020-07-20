@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import style from '../src/style.css';
+import Reacteroids from './Reacteroids';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Reacteroids />
   </React.StrictMode>,
   document.getElementById('root')
 );
